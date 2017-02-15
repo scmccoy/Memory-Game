@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Memory Game</title>
+    <link rel="stylesheet" href="/lib/styles/app.css">
+</head>
+
+<body>
+    <header>
+        <button class="main-start-btn">Start New Game</button>
+        <div class="main-moments">Timer: <span id="timer"></span> </div>
+        <div class="main-moments">Last Game: <span id="last-game"></span></div>
+        <div class="main-health-bar">
+            <div class="main-health"></div>
+        </div>
+
+    </header>
+    <div class="main-template-container">
+        <div class="cards-container">
+        </div>
+    </div>
+
+    <!-- TEMPLATE -->
+    <script id="cards-template" type="text/x-handlebars-template">
+        <div class="card-singles" data-tracker="{{id}}">{{id}}</div>
+    </script>
+    <!-- An end, but only one -->
+    <script src="/lib/js/vendor/vendor.min.js"></script>
+    <script src="/lib/js/app.js"></script>
+</body>
+
+</html>
