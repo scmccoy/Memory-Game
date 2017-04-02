@@ -1,3 +1,5 @@
-# week-6-day-1
+# Memory Game
+
+Javascript
 
 github pages : https://scmccoy.github.io/Memory-Game/
